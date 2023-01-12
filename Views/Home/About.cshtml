@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<style>
+    #banner-about {
+        background-image: url("../../Pictures/luis-melendez-Pd4lRfKo16U-unsplash.jpg");
+        background-color: #cccccc;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #card-col :hover {
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.024) 0px 0px 0px 1px, rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.03) 0px 0px 8px 0px, rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .btn-primary {
+        background-color: rgb(243,193,77);
+        border-color: rgb(243,193,77);
+        color: black;
+    }
+
+    .card-title {
+        font-weight: 700;
+    }
+</style>
+
+<div class="jumbotron" id="banner-about">
+</div>
+
+<div class="row">
+    <hr /><br /><br />
+    <h2 style="text-align:center;font-weight:700;">Developement Team</h2>
+    <br /><br />
+    <div class="col-md-4" id="card-col">
+        <div class="card" style="width: 30rem;">
+            <img src="~/Pictures/Tahreem-pic.jpeg" class="card-img-top" style="width:30rem;height:230px;">
+            <div class="card-body">
+                <h5 class="card-title">Tahreem Ijaz</h5>
+                <p class="card-text">Student of BSCS-6</p>
+                <p class="card-text">Frontend Developer</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4" id="card-col">
+        <div class="card" style="width: 30rem;">
+            <img src="~/Pictures/Profile-Pic.jpeg" class="card-img-top" style="width:30rem;height:230px;">
+            <div class="card-body">
+                <h5 class="card-title">Armaghan Bin Zahid</h5>
+                <p class="card-text">Student of BSCS-6</p>
+                <p class="card-text">Full-Stack Developer</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 " id="card-col">
+        <div class="card" style="width: 30rem;">
+            <img src="~/Pictures/Maaz-pic.jpg" class="card-img-top" style="width:30rem;height:230px;">
+            <div class="card-body">
+                <h5 class="card-title">Maaz Khalil</h5>
+                <p class="card-text">Full-Stack Developer</p>
+               
+            </div>
+        </div>
+    </div>
+</div>
+<br /><br />
